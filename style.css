@@ -1,0 +1,35 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg,#ffe195,#ffb2b2);
+}
+.main{
+  background-color: #e7f2f8;
+  padding: 40px;
+  border-radius: 10px;
+  color: silver;
+}
+.main h2{
+  font-size: 20px;
+  text-align: center;
+}
+.star i{
+  font-size: 30px;
+padding: 10px;
+cursor: pointer;
+}
+.star{
+  text-align: center;
+}
+@media(max-width:370px){
+  .star i{
+    font-size: 25px;
+    padding: 7px;
+  }
+}
+.active{
+  color: #ff9c1a;
+}
